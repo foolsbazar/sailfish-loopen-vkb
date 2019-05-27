@@ -864,22 +864,22 @@ Item {
             keyboard.inputHandler._handleKeyClick(enterKey)
             break;
         case "leftArrow":
-            spaceFuntion()
+            Qt.inputMethod.commit()
             MInputMethodQuick.sendKey(Qt.Key_Backspace, 0, "\b", Maliit.KeyClick)
             MInputMethodQuick.sendKey(Qt.Key_Left, 0, "", Maliit.KeyClick)
             break;
         case "rightArrow":
-            spaceFuntion()
+            Qt.inputMethod.commit()
             MInputMethodQuick.sendKey(Qt.Key_Backspace, 0, "\b", Maliit.KeyClick)
             MInputMethodQuick.sendKey(Qt.Key_Right, 0, "", Maliit.KeyClick)
             break;
         case "upArrow":
-            spaceFuntion()
+            Qt.inputMethod.commit()
             MInputMethodQuick.sendKey(Qt.Key_Backspace, 0, "\b", Maliit.KeyClick)
             MInputMethodQuick.sendKey(Qt.Key_Up, 0, "", Maliit.KeyClick)
             break;
         case "downArrow":
-            spaceFuntion()
+            Qt.inputMethod.commit()
             MInputMethodQuick.sendKey(Qt.Key_Backspace, 0, "\b", Maliit.KeyClick)
             MInputMethodQuick.sendKey(Qt.Key_Down, 0, "", Maliit.KeyClick)
             break;
